@@ -1,0 +1,39 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1C2B35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.headerContainer a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.headerContainer a:hover{
+    text-decoration: none;
+    color: orange;
+    margin-left: 20px;
+}
+
+
+.headerContainer .title{
+    align-items: center;
+    margin-left: 112px;
+}
+
+.headerContainer .menu{
+    align-items: center;
+    margin-right: 112px;
+    display: flex;
+}
+
+.headerContainer img {
+    height: 43px;
+    width: 140px;
+    pointer-events: inherit;
+}
+

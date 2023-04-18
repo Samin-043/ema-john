@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400 !important;
+}
+
+h4{
+    margin-top: 2rem;
+    font-style: normal;
+    font-weight: 400 !important;
+}
+
+
+.orderStatus{
+    font-weight: 400 !important;
+}
