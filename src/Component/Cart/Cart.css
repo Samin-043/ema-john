@@ -14,3 +14,26 @@ h4{
 .orderStatus{
     font-weight: 400 !important;
 }
+
+.clearCart{
+    height: 48px;
+    width: 232px;
+    background-color: #FF3030;
+    border-radius: 8px;
+}
+
+.clearCart:hover{
+    background-color: #ff303077;
+}
+
+.reviewOrder{
+    margin-top: 10px;
+    height: 48px;
+    width: 232px;
+    border-radius: 8px;
+    background-color: #FF9900;
+}
+
+.reviewOrder:hover{
+    background-color: #ff99008c;
+}

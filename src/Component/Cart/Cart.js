@@ -34,8 +34,11 @@ const Cart = (props) => {
             <p className='orderStatus'>Total Shipping charge : <strong>${totalShippingCharge}</strong></p>
             <p className='orderStatus'>Tax : <strong>${totalTax.toFixed(2)}</strong></p>
             <h4><strong>Grand Total : ${grandTotal.toFixed(2)}</strong></h4>
+            <button className='clearCart'>Clear Cart</button>
+            <button className='reviewOrder'>Review Order</button>
         </div>
     );
 };
 
 export default Cart;
+
