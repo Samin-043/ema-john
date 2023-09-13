@@ -1,15 +1,19 @@
 .shop{
-    display: flex;
+    float: left;
 }
 
 .product{
-    margin-left: 100px;
     min-width: min-content;
 }
 
 .cart{
-    min-width: 250px;
+    /* min-width: 250px; */
     padding: 1rem;
     background: rgba(255, 153, 0, 0.3);
     border: 2px solid #ffffff;
+}
+
+.cartButtonModify{
+    position: fixed;    
+    z-index: 1000;
 }
